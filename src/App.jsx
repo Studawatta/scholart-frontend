@@ -7,7 +7,7 @@ const App = () => {
   const [user, setUser] = useState(false);
 
   return (
-    <div>
+    <div className="font-poppings box-border">
       <Navbar />
       <Routes>
         <Route path="/" element={user ? <TeacherHome /> : <LandingPage />} />
