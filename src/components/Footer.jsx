@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row items-center gap-5">
         <img src={logo} alt="scholart" className="h-14" />
         <p className=" font-medium flex text-xs sm:text-base text-white drop-shadow-[0_0_2px_black]">
-          Copyright © 2023 scholart(pvt) Ltd.All rights reserved.
+          Copyright © 2023 scholart(pvt) Ltd. All rights reserved.
         </p>
       </div>
     </div>

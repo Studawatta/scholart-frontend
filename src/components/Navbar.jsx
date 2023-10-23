@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div
       className={`fixed top-0 z-50 h-16 sm:h-[72px] w-full px-5 sm:px-16 lg:px-[16%] flex justify-between items-center  ${
-        isScrolled ? 'bg-white/50' : ''
+        isScrolled ? 'bg-black/50' : ''
       } `}
     >
       {/* NAVBAR_LEFT  */}
@@ -42,7 +42,7 @@ const Navbar = () => {
         {/* SIGNUP */}
         <Link
           to="/signup"
-          className={`${buttonStyle} bg-blue-600 hover:bg-blue-800 text-white `}
+          className={`${buttonStyle} bg-primaryBlue hover:bg-primaryBlueHover text-white `}
         >
           <AiOutlineUserAdd className="hidden sm:block" />
           <span>Sign Up</span>

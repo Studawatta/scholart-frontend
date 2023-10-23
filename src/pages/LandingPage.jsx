@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Landing_Background, logo } from '../assets';
 
 const LandingPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="">
       <div className=" relative h-screen  min-w-full">
